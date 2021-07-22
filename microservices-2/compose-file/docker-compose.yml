@@ -51,7 +51,7 @@ services:
       - api-gateway
     environment:
       EUREKA_CLIENT_SERVICEURL_DEFAULTZONE: http://eureka:8761/eureka
-    image: akshit2707/eureka:latest
+    image: akshit2707/product-service:latest
     ports:
       - "7050:7050"
     links:
